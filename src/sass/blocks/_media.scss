@@ -1,0 +1,42 @@
+@media (max-width: 991px) {
+  header {
+    padding: 0 30px;
+  }
+  .promo__wrapper {
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 0 30px;
+  }
+  .promo {
+    padding-bottom: 65px;
+  }
+  .promo__header {
+    font-size: 37px;
+  }
+
+  .promo__subheader {
+    font-size: 21px;
+  }
+
+  .benefits {
+    padding: 63px 0 55px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  header {
+    padding: 0 20px;
+  }
+  .header__phone {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+  .benefits__wrapper {
+    width: 100%;
+  }
+}
+// @media (max-width: 991px) @media (max-width: 767px) @media (max-width: 575px);
